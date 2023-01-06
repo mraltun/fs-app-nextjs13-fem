@@ -1,6 +1,6 @@
 import GlassPane from "@/components/GlassPane";
 
-const DashboardRootLayout = ({ children }) => {
+const AuthRootLayout = ({ children }) => {
   return (
     <html lang='en'>
       <head />
@@ -12,4 +12,4 @@ const DashboardRootLayout = ({ children }) => {
   );
 };
 
-export default DashboardRootLayout;
+export default AuthRootLayout;
