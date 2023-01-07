@@ -1,7 +1,7 @@
 import Card from "./Card";
 import SidebarLink from "./SidebarLink";
 import Image from "next/image";
-import logo from "@/assets/images/logo.png";
+import logo from "@/assets/images/logo.svg";
 
 const links = [
   { label: "Home", icon: "Grid", link: "/home" },
