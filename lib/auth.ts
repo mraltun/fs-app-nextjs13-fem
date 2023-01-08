@@ -1,5 +1,5 @@
 import bcrypt from "bcrypt";
-// JSON Web Almost Everything
+// jsonwebtoken alternative due to edge runtime. Look at the middleware.ts
 import { SignJWT, jwtVerify } from "jose";
 import { db } from "./db";
 
