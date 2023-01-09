@@ -4,6 +4,7 @@ import Link from "next/link";
 import { delay } from "@/lib/async";
 import { getUserFromCookie } from "@/lib/auth";
 import { db } from "@/lib/db";
+import GreetingsSkeleton from "@/components/GreetingSkeleton";
 import Greeting from "@/components/Greeting";
 
 export default async function Page() {
